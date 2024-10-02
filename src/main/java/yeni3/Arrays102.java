@@ -19,6 +19,9 @@ public class Arrays102 {
         b298[3]="baba";
         System.out.println(Arrays.toString(b298));
 
+        String specificValue=b298[1];
+        System.out.println(specificValue);
+        String sp=b298[0];
 
 
 
