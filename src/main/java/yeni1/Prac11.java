@@ -23,9 +23,16 @@ public class Prac11 {
         System.out.println("lengthcontrol=" +lengthcontrol);
         //space olmasın space hariç sil 0 tane mi bak
         boolean spaceControl=pwd.replaceAll("[^ ]","").length()==0;
-
-
-
+        System.out.println("spaceControl ="+ spaceControl);
+        //enaz bir byk olsun byk harf hariç herşeyi sil
+        boolean upperCaseControl=pwd.replaceAll("[^A-Z]","").length()>0;
+        System.out.println("upperCaseControl = " + upperCaseControl);
+        //enaz bir kck olsun kck haric hepsini sil
+        boolean lowerCaseControl=pwd.replaceAll("[^a-z]","").length()>0;
+        System.out.println("lowerCaseControl = " + lowerCaseControl);
+        //enaz bir rakam olsun rakam haric hepsini sil
+        boolean numberControl=pwd.replaceAll("[^0-9]","").length()>0;
+        System.out.println("numberControl = " + numberControl);
 
 
     }
