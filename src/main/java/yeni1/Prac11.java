@@ -20,19 +20,30 @@ public class Prac11 {
         String pwd=input.nextLine();
         //enaz sekiz karakteri olsun
         boolean lengthcontrol=pwd.length()>7;
-        System.out.println("lengthcontrol=" +lengthcontrol);
+       // System.out.println("lengthcontrol=" +lengthcontrol);
         //space olmasın space hariç sil 0 tane mi bak
         boolean spaceControl=pwd.replaceAll("[^ ]","").length()==0;
-        System.out.println("spaceControl ="+ spaceControl);
+        //System.out.println("spaceControl ="+ spaceControl);
         //enaz bir byk olsun byk harf hariç herşeyi sil
         boolean upperCaseControl=pwd.replaceAll("[^A-Z]","").length()>0;
-        System.out.println("upperCaseControl = " + upperCaseControl);
+       // System.out.println("upperCaseControl = " + upperCaseControl);
         //enaz bir kck olsun kck haric hepsini sil
         boolean lowerCaseControl=pwd.replaceAll("[^a-z]","").length()>0;
-        System.out.println("lowerCaseControl = " + lowerCaseControl);
+       // System.out.println("lowerCaseControl = " + lowerCaseControl);
         //enaz bir rakam olsun rakam haric hepsini sil
         boolean numberControl=pwd.replaceAll("[^0-9]","").length()>0;
-        System.out.println("numberControl = " + numberControl);
+       // System.out.println("numberControl = " + numberControl);
+        //hata için if(!numbercontrol)sout sifre en az bir rakam içermeli
+        //sonuc
+        boolean isValid=lengthcontrol&&spaceControl&&upperCaseControl&&lowerCaseControl&&numberControl;
+
+        if (isValid){
+            System.out.println( "sifre gecerlidir.");
+        }else {
+            System.out.println("şifre yanlış");
+
+        }
+
 
 
     }
