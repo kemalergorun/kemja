@@ -8,6 +8,10 @@ public class MetodCreation4 {
         //method signature=method name + parameters
         //name same para change
         //change datatype parameters and place of parameters
+        //java oop and has 4 principles
+        // one of them poly morphism =many forms
+        //polymorphism=overloading+overriding
+
 
 
 
