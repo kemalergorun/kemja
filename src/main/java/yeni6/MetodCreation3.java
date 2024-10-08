@@ -16,6 +16,14 @@ public class MetodCreation3 {
 
 
     }
+    //substract method
+        static int substract(int a,int b){
+        int result= a-b;
+        System.out.println("result = " + result);
+        return result;
+
+
+    }
 
 
 

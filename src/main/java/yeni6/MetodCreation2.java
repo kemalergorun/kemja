@@ -1,5 +1,7 @@
 package yeni6;
 
+import static yeni6.MetodCreation3.substract;
+
 public class MetodCreation2 {
     public static void main(String[] args) {
        //access modifiers
@@ -12,6 +14,8 @@ public class MetodCreation2 {
         multiply(2,4,7);
         addAndmultiply(3,4,5);
         printText("crazy");
+
+        substract(6,5);
 
 
 
