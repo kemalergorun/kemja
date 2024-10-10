@@ -10,11 +10,12 @@ public class Date {
     public static void main(String[] args) {
 
 
-        LocalTime currentTimeInYozgat=LocalTime.now(ZoneId.of("Asia/Istanbul"));
-        System.out.println(currentTimeInYozgat);
+
 
 
     }
+
+
 
 
     }
