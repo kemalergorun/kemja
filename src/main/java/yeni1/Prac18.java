@@ -22,6 +22,14 @@ public class Prac18 {
         //-----------------------------------------
         //tekrar olmayan karakteri yaz bir stringde
         //yusuf=ysf
+        String a="yusuf";
+        String uniq="";
+        for (int i = 0; i <a.length() ; i++) {
+            char ch=a.charAt(i);
+            if (a.indexOf(ch)==a.lastIndexOf(ch)){
+                uniq=uniq+ch;
+            }
+        }System.out.println("uniq = " + uniq);
 
 
 
