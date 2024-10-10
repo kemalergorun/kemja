@@ -1,6 +1,6 @@
 package yeni10;
 
-public class StrBuild2 {
+public class StrBuild4 {
     public static void main(String[] args) {
         //customize capacity
         StringBuilder sb1=new StringBuilder();
