@@ -40,6 +40,10 @@ public class AnimalRunner {
         //every class has parent
         // object class doesn't have parent
         //like real life only one parent
+        //multi inheritance not  accepted
+        //is a child
+        //has a parent
+
 
 
 
