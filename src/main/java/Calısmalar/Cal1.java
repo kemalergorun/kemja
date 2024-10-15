@@ -33,6 +33,22 @@ public class Cal1 {
         for (String[] w:students){
             System.out.println( sum = sum + w.length);
         }
+        //yukarda icinde m olan isimleri yaz
+        for (String[]w:students){
+            for (String k:w){
+                if ((k.contains("m"))){
+                    System.out.println(k);
+                }
+            }
+        }
+        //--------------------------------------
+
+
+
+
+
+
+
 
 
     }
