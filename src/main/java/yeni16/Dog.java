@@ -20,4 +20,24 @@ public class Dog extends Mammals {
     public void drink() {
         System.out.println("dog drink water");
     }
+
+    @Override
+    public int add(int a, int b) {
+        return a+b;
+    }
+
+    @Override
+    public Animal create() {
+        System.out.println("allows dog object");
+        return new Dog();
+    }
+
+    @Override
+    public Integer multiply(int a, int b) {
+        return a*b;
+    }
 }
+
+
+
+

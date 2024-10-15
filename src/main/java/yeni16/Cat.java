@@ -20,6 +20,12 @@ public class Cat extends Mammals{
     public void drink() {
         System.out.println("cat drink cola");
     }
+
+    @Override
+    public Animal create() {
+        System.out.println("cat object creating");
+        return new Cat();
+    }
 }
 
 

@@ -1,0 +1,10 @@
+poly morp many forms
+second principle of oop
+implement methods many ways
+overloading in same class
+overriding in child classes and implement with specificition
+classes have parent child relationship
+when we override which has return type we can declare the same data type
+when we are overriding
+or we can use child classes as well
+
