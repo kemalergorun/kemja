@@ -8,6 +8,8 @@ public class Runner {
     //must implement
     //abstract ghost method concrete real method
     //inheritance-over-riding-abstraction
+    //final methods cant be abstract
+    //private classes cant be abstract
 
     /*
     If there's a parent-child relation between an "abstract" and
