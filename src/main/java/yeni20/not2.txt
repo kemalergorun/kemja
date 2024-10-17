@@ -1,0 +1,8 @@
+arraylist are success search operations but not add remove op
+linked-list are success in add remove op but not search
+they have nodes not indexes and node two part data
+pointer acts like index but not index
+when we add rem nodes not reindexing and faster
+change check other nodes not must
+list to use flexible and multi data
+

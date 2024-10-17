@@ -44,6 +44,18 @@ public class LinkedList01 {
         System.out.println("mylist = " + mylist);
         mylist.removeLast();
         System.out.println("mylist = " + mylist);
+        LinkedList<String>l2=new LinkedList<>();
+        l2.add("fatma");
+        l2.add("kemal");
+        l2.add("junaid");
+        l2.add("fatma");
+        l2.add("junaid");
+        l2.add("fatma");
+        System.out.println("l2 = " + l2);
+        l2.removeFirstOccurrence("junaid");
+        l2.removeLastOccurrence("fatma");
+        System.out.println("l2 = " + l2);
+
 
     }
 }
