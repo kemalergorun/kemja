@@ -7,8 +7,13 @@ public class RunnerCla {
         A5n.eco();
         A5n.digital();
         A5n.turbo();
+        A5n.esp(6);
+        A5n.run();
         //implements from interface
         //so implement cant override methods
+        //interface has no constructor
+        //but abstract got
+
 
     }
 }
