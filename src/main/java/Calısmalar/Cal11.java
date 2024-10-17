@@ -39,6 +39,14 @@ public class Cal11 {
     //parametre data tipleri faklı ise parametrelerin yerleri değişir
     //overload da return type access mod ve static non static etki yoktur
 
+    //class ismi ile çağrılan static
+    //obje ile çağrılan non static metod
+
+    //private ve static metodlar overload olur,çünkü private aynı classtır
+    //overload yeni metod oluşturur
+
+
+
 
 
 
