@@ -14,6 +14,12 @@ public class RunnerCla {
         //interface has no constructor
         //but abstract got
 
+        Brake.speed();
+        A5n.power();
+        //we cant update variables interface cause final
+        //********
+        System.out.println("Engine.price = " + Engine.price);
+        System.out.println("AirCond.price = " + AirCond.price);
 
     }
 }
