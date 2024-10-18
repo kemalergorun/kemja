@@ -23,6 +23,30 @@ public class Car {
     //constructor classtan obje oluşturan bölüm
     //class ta otomatik cons vardır
     //default tur car() diye geçer
+    //constructor sağ tarafta yer alır
+    //car class bize hep aynı değeri dönderir
+    //eğer kendi cons oluşursa java defaultu siler
+
+     //****constructor nasıl oluşur
+    //access modifier +class ismi+()+{}
+    //metod ile cons arası fark
+    //-methodlar return type var cons yok
+    //-metod yaptığı işe göre isim alır cons sadece class ismi alır
+    //-metod aksiyon yapar iş yapar.cons sadece obje oluşturur
+    //-metod kucuk harf cons ise buyuk harf ile başlar çünkü class ismi
+    //ile aynı. parametreli conslar oluşturarak aynı classtan farklı
+    //özelliklere sahip obje oluşur
+
+
+
+
+
+
+
+
+
+
+
 
 
 
