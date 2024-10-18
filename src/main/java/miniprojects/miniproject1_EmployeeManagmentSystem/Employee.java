@@ -19,6 +19,9 @@ public abstract class Employee {
         return id;
 
     }
+    //abstract method to display all methods
+    public abstract String getDetails();
+
 
 
 }
