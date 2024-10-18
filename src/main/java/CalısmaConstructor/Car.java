@@ -27,7 +27,17 @@ public class Car {
     //car class bize hep aynı değeri dönderir
     //eğer kendi cons oluşursa java defaultu siler
 
-     //****constructor nasıl oluşur
+    @Override
+    public String toString() {
+        return "Car{" +
+                "brand='" + brand + '\'' +
+                ", model='" + model + '\'' +
+                ", year=" + year +
+                ", hybrid=" + hybrid +
+                '}';
+    }
+
+    //****constructor nasıl oluşur
     //access modifier +class ismi+()+{}
     //metod ile cons arası fark
     //-methodlar return type var cons yok
@@ -36,6 +46,14 @@ public class Car {
     //-metod kucuk harf cons ise buyuk harf ile başlar çünkü class ismi
     //ile aynı. parametreli conslar oluşturarak aynı classtan farklı
     //özelliklere sahip obje oluşur
+    public Car(String brand,String model,int year,boolean hybrid) {
+        this.brand=brand;
+        this.model=model;
+        this.year=year;
+        this.hybrid=hybrid;
+
+
+    }
 
 
 

@@ -1,0 +1,15 @@
+Create a program to manage different types of employees
+(full-time, part-time, manager, intern, and contract employees).
+Each employee type has specific attributes and salary calculation rules.
+ The system should be able to calculate the total salary for each employee
+ based on their role and conditions.
+
+
+Conditions:
+
+1. The system must validate employee data (name, ID, salary)
+to ensure they are valid.
+    If any invalid data is entered (e.g., negative salary),
+    the system should provide an error message: "Invalid data entered!".
+2. The system should allow calculating and displaying
+ the total salary for each employee type.
