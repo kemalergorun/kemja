@@ -24,6 +24,9 @@ public class Queue1 {
         System.out.println(store.poll());
         //element  show first but if empty que throw exception
         System.out.println(store.element());
+        store.offer("honey");
+        store.offer("chips");
+        System.out.println(store);
 
 
     }
