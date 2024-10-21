@@ -12,6 +12,8 @@ public class Runner {
         System.out.println(firstIntern.getDetails());
         Manager firstManager=new Manager("tamer","t555",1000,100,50);
         System.out.println(firstManager.getDetails());
+        ContractEmployee firstCe=new ContractEmployee("k","k111",66,12);
+        System.out.println(firstCe.getDetails());
 
 
     }
