@@ -54,7 +54,11 @@ public class Car {
 
 
     }
+      public Car(String brand,String model){
+        this.brand=brand;
+        this.model=model;
 
+      }
 
 
 

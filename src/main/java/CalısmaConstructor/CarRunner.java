@@ -18,6 +18,8 @@ public class CarRunner {
         //to string oluşturmak gerekir obje içi için tostring kullanılır
         System.out.println(c1);
         System.out.println(c2);
+        Car c3=new Car("fiat","şahin");
+        System.out.println(c3);
 
     }
 }
