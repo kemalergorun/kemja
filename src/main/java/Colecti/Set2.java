@@ -1,6 +1,7 @@
 package Colecti;
 
 import java.util.LinkedHashSet;
+import java.util.SortedSet;
 import java.util.TreeSet;
 
 public class Set2 {
@@ -34,8 +35,13 @@ public class Set2 {
         ts.add('l');
         ts.add('b');
         ts.add('y');
+        ts.add('o');
+
         System.out.println(ts);
         //tree set dont accept null
+        SortedSet ts1=ts.subSet('d','o');
+        System.out.println(ts1);
+        System.out.println(ts.ceiling('z'));
 
 
     }
