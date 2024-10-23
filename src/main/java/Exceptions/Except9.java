@@ -21,7 +21,11 @@ public class Except9 {
 
         }catch (ArithmeticException e){
             System.out.println("cant divide zero");
-        }
+        }finally {
+            System.out.println("cut the connection");
+        }//try only once finally only once
+        //catch can use multiple
+
 
 
     }
