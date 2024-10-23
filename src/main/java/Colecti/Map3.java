@@ -45,6 +45,7 @@ public class Map3 {
         - The operation should be case-insensitive.
         - Mike is Mike.  => mike is mike ==> mike, is, mike
         - expected result should be in a map => {mike=2, is=1}
+        -
 
 
          */
