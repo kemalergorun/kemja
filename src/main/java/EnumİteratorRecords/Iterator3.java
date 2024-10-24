@@ -17,6 +17,11 @@ public class Iterator3 {
 
             }
             System.out.println("yourList = " + yourList);
+            Employee employee1=new Employee("kem",123);
+            System.out.println(employee1.employeenum());
+            System.out.println(employee1.name());
+
+
         }
     }
 }
