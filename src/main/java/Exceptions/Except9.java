@@ -25,7 +25,24 @@ public class Except9 {
             System.out.println("cut the connection");
         }//try only once finally only once
         //catch can use multiple
+        //compile time file not found class not found
+        //runtime string idex array index out arithmetic
+        /*types of Exceptions?
+                1. Compile Time Exceptions (Checked Exceptions)
+        a. FileNotFoundException
+        b. ClassNotFoundException
+        2. RunTime Exceptions (UnChecked Exceptions)
+        a. StringIndexOutOfBoundException
+        b. ArrayIndexOutOfBoundException
+        c. ArithmaticException
+        d. NumberFormatException
+        e. IllegalArgumentsException
+       ……..
+        To handle exceptions => try catch block
+        We can throw exception to stop the application at a given point
 
+
+         */
 
 
     }
