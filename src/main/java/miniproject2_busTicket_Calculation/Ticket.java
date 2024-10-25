@@ -13,7 +13,7 @@ public class Ticket {
         System.out.println("distance = " + this.distance);
         System.out.println("journeyType = " + this.journeyType);
         System.out.println("seatNo = " + this.seatNo);
-        System.out.println("totalprice = " + this.price);
+        System.out.println("totalprice $ = " +Math.round(this.price) );
         System.out.println("have a nice trip");
     }
 }
