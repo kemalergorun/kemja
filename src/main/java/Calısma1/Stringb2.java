@@ -38,7 +38,7 @@ public class Stringb2 {
         System.out.println(newSb1);
         //-------------------------------------
         //String buffer string ureten başka bir class
-        //mutable string olusturur
+        //mutable string olusturur//multi thread çoklu iş parçası
         //string buffer multithread ama sb değil
         //sb olmadığı için daha hızlı çalışır
         //multi thread yapılırken işlerin sıralanması gerekir,
@@ -47,8 +47,15 @@ public class Stringb2 {
         //ımmutable string class kullan
         //mutable string buffer multi thread kullanırsa
         //mutable string builder multi thread olmaycaksa
-
-
+        //-------------------------------------------
+        //stringbuffer oluşturma
+        StringBuffer sbf=new StringBuffer("Java");
+        System.out.println(sbf);
+        //single thread tek iş parçacığı string builder ofiste çalışan 1 kişi
+        //multi thread birden fazla iş yapılır ama sıralamak gerekir
+        //fabrika çalışanları fabrikada birden fazla iş
+        //single tek basit işlerde string builder
+        //çoklu multi işlerde multi kullanılır
 
 
     }
