@@ -27,7 +27,7 @@ public class Lambda1 {
     }
     //create a method to print square of each element
     public static void printSquare(List<Integer>list){
-        list.stream().map(t->t*t).forEach(t-> System.out.println(t));
+        list.stream().map(t->t*t).forEach(t-> System.out.print(t));
 
     }
     //create a method to print cube of odd elements
