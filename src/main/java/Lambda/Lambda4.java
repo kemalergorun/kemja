@@ -2,6 +2,7 @@ package Lambda;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 
 public class Lambda4 {
@@ -13,6 +14,8 @@ public class Lambda4 {
         maxNumber(myList);
         maxNumber1(myList);
         maxNumber2(myList);
+        maxNumber3(myList);
+        maxNumber4(myList);
 
     }
     //create a method to find the max number from list
@@ -33,6 +36,15 @@ public class Lambda4 {
     //reduce function can be used without identity element
     //1.option to declare optional data type
     //2.option use get method
+    //4.way using method reference math max
+    public static void maxNumber3(List<Integer>list){
+        System.out.println(list.stream().distinct().reduce((Math::max)).get());
+    }
+    //5. way
+    public static void maxNumber4(List<Integer>list){
+        System.out.println(list.stream().distinct().sorted(Comparator.reverseOrder()).findFirst().get());
+    }
+
 
 
 
