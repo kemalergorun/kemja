@@ -1,45 +1,49 @@
 package Lambda;
 
-import java.awt.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 public class Lambda1 {
     public static void main(String[] args) {
-        //filter work as if statements
-        //we use for each to write each element
-        //map function updates elements in stream after math ops
-
-        List<Integer> nums=new ArrayList<>(Arrays.asList(3,5,2,6,11));
-        System.out.print(nums);
+        //lambda expressions introduced in java 8 functional programming
+        //kendileri programming değil sadece oop destekliyor
+        //isimsiz fonksiyonlar içerir ve kısa yol gibi adlandırılırlar
+        //collections ve arraylar ile kullanılır
+        List<Integer>numbers=new ArrayList<>(Arrays.asList(5,9,12,23,49,65));
+         printElements(numbers);
+        System.out.println("----------------");
+        printElementsWithLambda(numbers);
         System.out.println("---------------------");
-        printSquare(nums);
-        System.out.println("---------------------------");
-        printOddcube(nums);
-        System.out.println("-------------------------,");
-
-        List<Integer>nums2=new ArrayList<>(Arrays.asList(7,3,5,2,5,6,11,7));
-        System.out.println(nums2);
-        removeDuplicates(nums2);
+        printEvens(numbers);
+        System.out.println("-------------------------");
+        printEvensWithLambda(numbers);
 
 
     }
-    //create a method to print square of each element
-    public static void printSquare(List<Integer>list){
-        list.stream().map(t->t*t).forEach(t-> System.out.print(t));
+    //create a simple method
+    public static void printElements(List<Integer>numb){
+        for (Integer w:numb){
+            System.out.print(w + "");
+        }
+    }
+    public static void printElementsWithLambda(List<Integer>list){
+        list.stream().forEach(t->System.out.print(t));
+        //t receives each element one by one
+        //t function name
+
 
     }
-    //create a method to print cube of odd elements
-    public static void printOddcube(List<Integer>list){
-        list.stream().filter(t->t%2!=0).map(t->t*t*t).forEach(t-> System.out.println(t));
+    public static void printEvens(List<Integer>list){
+        for (Integer w:list){
+            if (w%2==0){
+                System.out.print(w + "");
+            }
+
+        }
     }
-//
-    public static void removeDuplicates(List<Integer>list){
-        list.stream().distinct().forEach(t-> System.out.println(t));
+    public static void printEvensWithLambda(List<Integer>list){
+        list.stream().filter(t->t%2==0).forEach(t->System.out.print(t));
+
     }
-
-
-
-
 }
