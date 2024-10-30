@@ -14,11 +14,13 @@ public class Lambda1 {
         myList.add("Josef");
         myList.add("Shukrullah");
         System.out.println("myList = " + myList);
-        removeElem(myList);
+        //removeElem(myList);
         System.out.println("------------------------");
-        removeElem1(myList);
+        //removeElem1(myList);
         System.out.println("------------------------------------");
-        removeElem2(myList);
+        //removeElem2(myList);
+        System.out.println(checkLength(myList));
+        System.out.println(checklength2(myList));
 
 
     }//create mthod delete the elements which start with "Y"and ends with "f"
@@ -30,12 +32,21 @@ public class Lambda1 {
         list.removeIf(t->t.contains("a"));
         System.out.println("list = " + list);
 
-    }//create delete elem size between 4 and8 and ends w f
+    }//create delete elem size between 4 and8 or ends w f
     public static void removeElem2(List<String>list){
         Predicate<String>condition=t->t.length()>4&&t.length()<8||t.endsWith("f");
         list.removeIf(t->condition.test(t));
         System.out.println("list = " + list);
+        //create met check if all elements are greater 6
+
+    }public static boolean checkLength(List<String>list){
+      return   list.stream().allMatch(t->t.length()>6);
+
+
+    }public static boolean checklength2(List<String>list){
+        return list.stream().anyMatch(t->t.length()>6);
 
     }
+
 
 }
