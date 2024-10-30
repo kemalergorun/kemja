@@ -21,6 +21,7 @@ public class Lambda1 {
         //removeElem2(myList);
         System.out.println(checkLength(myList));
         System.out.println(checklength2(myList));
+        System.out.println(checklength3(myList));
 
 
     }//create mthod delete the elements which start with "Y"and ends with "f"
@@ -45,6 +46,11 @@ public class Lambda1 {
 
     }public static boolean checklength2(List<String>list){
         return list.stream().anyMatch(t->t.length()>6);
+
+    }public static boolean checklength3(List<String>list){
+        Predicate<String>condition=t->t.startsWith("X");
+
+        return list.stream().noneMatch(t->condition.test(t));
 
     }
 
