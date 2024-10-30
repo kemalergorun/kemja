@@ -20,6 +20,8 @@ public class Instance1 {
 
 
         Instance1 obj1=new Instance1();
+        Instance1 obj2=new Instance1();
+
 
 
 
