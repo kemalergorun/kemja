@@ -27,17 +27,17 @@ public class Lambda2 {
 
     }//create metod print all elements uppercase inthe same line space
     public static void printElements(List<String>list){
-        list.stream().map(t->t.toUpperCase()).forEach(t-> System.out.print(t +" "));
+        list.stream().map(t->t.toUpperCase()).forEach(Utils::printWithSpace);
 
     }//create method unique elements lowercase and sorted
     public static void printElements1(List<String>list){
-        list.stream().distinct().map(t->t.toLowerCase()).sorted(Comparator.comparing(String::length)).forEach(t-> System.out.print(t+" "));
+        list.stream().distinct().map(t->t.toLowerCase()).sorted(Comparator.comparing(String::length)).forEach(Utils::printWithSpace);
         //comprator compare to length of elements and insertion order
 
 
     }//create a method to sort unique elements according last char
     public static void sortedByLastChar(List<String>list){
-        list.stream().distinct().sorted(Comparator.comparing(t->t.charAt(t.length()-1))).forEach(Utils::printWithSpace);
+        list.stream().distinct().sorted(Comparator.comparing(Utils::getLastChar)).forEach(Utils::printWithSpace);
     }//sorted use string in order
 
 
