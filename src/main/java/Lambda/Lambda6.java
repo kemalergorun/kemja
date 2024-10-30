@@ -43,5 +43,9 @@ public class Lambda6 {
     public static void uniq(List<String>list){
             list.stream().sorted().map(String::toLowerCase).distinct().toList().forEach(t-> System.out.print(t+" "));
     }
+    public static void removeIf(List<String>list){
+        list.removeIf(t->t.length()>7);
+
+    }
 
 }
