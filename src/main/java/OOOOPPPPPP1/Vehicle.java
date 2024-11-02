@@ -9,5 +9,6 @@ public class Vehicle {
     //++------------------------******************
     //child class ta bir obje oluşursa constructor parenttan alta doğru
     //çalışır*********önemli****************
+//son kurtulma
 
 }
