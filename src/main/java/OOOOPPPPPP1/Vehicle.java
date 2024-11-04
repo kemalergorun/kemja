@@ -9,6 +9,18 @@ public class Vehicle {
     //++------------------------******************
     //child class ta bir obje oluşursa constructor parenttan alta doğru
     //çalışır*********önemli****************
-//son kurtulma
+    //son kurtulma
+    //cons oluştur
+    public Vehicle(){
+        System.out.println("honda,2023,benzin");
+
+    }
+
+
+
+
+
+
+
 
 }
