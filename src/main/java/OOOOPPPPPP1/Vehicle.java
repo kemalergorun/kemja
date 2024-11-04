@@ -11,9 +11,15 @@ public class Vehicle {
     //çalışır*********önemli****************
     //son kurtulma
     //cons oluştur
+
     public Vehicle(){
+        super();//3
         System.out.println("honda,2023,benzin");
 
+    }
+    public Vehicle(String marka,int yıl,String motor){
+        super();
+        System.out.println("honda,2024,elektrikli");
     }
 
 

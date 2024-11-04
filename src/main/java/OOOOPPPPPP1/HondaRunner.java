@@ -2,7 +2,7 @@ package OOOOPPPPPP1;
 
 public class HondaRunner {
     public static void main(String[] args) {
-        Honda h=new Honda();
+        Honda h=new Honda("accord");
         //child obje oluşturduğunda parent bunu super() çağrısı ile algılar
         //super parametresiz parent class cons çağırır
         //super child obje oluşursa otomatik çağrılır manuel olarakda çağrı
