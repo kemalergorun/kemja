@@ -7,6 +7,7 @@ public class Car extends Vehicle{
     }
     public Car(String tip){
         super("honda",2024,"elektrikli");
+        System.out.println("sport");
 
     }
 }
