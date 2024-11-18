@@ -9,5 +9,6 @@ public class Car extends Vehicle{
         super("honda",2024,"elektrikli");
         System.out.println("sport");
 
+
     }
 }

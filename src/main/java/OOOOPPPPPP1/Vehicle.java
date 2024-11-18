@@ -11,6 +11,9 @@ public class Vehicle {
     //çalışır*********önemli****************
     //son kurtulma
     //cons oluştur
+    //parametresizler default ve no arguman
+    //parametreliler super içine parametre eklenir
+    //public sınıf ismi içine parametre girilir
 
     public Vehicle(){
         super();//3
