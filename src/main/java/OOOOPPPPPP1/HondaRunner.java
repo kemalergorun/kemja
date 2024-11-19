@@ -9,6 +9,8 @@ public class HondaRunner {
         //yapabiliriz manuel olarak superle parametreli cons yapabiliriz
         //extends sadece miras alır metdoları değiştirmez super kullanırsak
         //parentın metodu çağırabilir ve child ihtiyacına göre değiştiririz
+        //super parantezi silip nokta koyup variable metodlara ulaşabiliriz
+
 
     }
 }
