@@ -34,6 +34,12 @@ public class Animal {
     {
         System.out.println("animals drink");
     }
+    //poly morphism çok biçimlilik demektir bir metodu farklı şekilde
+    //çaışltırmak için kullanılır
+    //iki çeşit overload ve over ride
+    //over load tek class override parent tan child e gider
+    //over ride daha spesifik bastırma
+    //
 
 
 
