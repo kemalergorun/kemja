@@ -8,7 +8,7 @@ public class Car extends Vehicle{
     public Car(String tip){
         super("honda",2024,"elektrikli");
         System.out.println("sport");
-
+//parametreliler paramları çağırır paramatresizler parametresizleri çağırır
 
     }
 }
