@@ -33,6 +33,7 @@ public class Animal {
     //final üzerinde hiçbir işlem yapılamaz
 
     public void eat(){
+        final double pi=3.14;
         System.out.println("animals eat");
     }
     public Animal create(){
