@@ -27,9 +27,27 @@ public class Animal {
     //classlar küçülür
     //daha az geliştirme ve bakım maliyeti
     //parent veya super class diye geçer child class subclass diye geçer
+    //static metod override edilemez variable da edilmez
+    //static metod overload edilir
+    //final işaretlenen metod override edilemez
+    //final üzerinde hiçbir işlem yapılamaz
+
     public void eat(){
         System.out.println("animals eat");
     }
+    public Animal create(){
+        return new Animal();//yeni animal obje üretip animal datatip verdim
+    }
+    //parnt int veri tipi metod aç child override edersek
+    public int add(int a,int b){
+        return a + b;
+    }
+    //parentta class veri türü aç override et
+    public Integer carpma(Integer a,Integer b){
+        return a*b;
+    }
+
+
     public void drink()
     {
         System.out.println("animals drink");
@@ -40,6 +58,11 @@ public class Animal {
     //over load tek class override parent tan child e gider
     //over ride daha spesifik bastırma
     //override anitasyonu yazmak zorunlu değil
+
+    //private override edilemez çünkü farklı classla olmaz
+    //child accesi parentten dar olamaz
+    //aynı seviye ve geniş olabilir liskovun yerine geçme
+
 
 
 
