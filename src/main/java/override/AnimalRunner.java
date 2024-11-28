@@ -20,6 +20,8 @@ public class AnimalRunner {
         //parent tan child a( has a )yukardan aşağı
         //child parenta (is a) aşağıdan yukarı
 
+        Cat c=new Cat();
+        c.feedWMilk();
 
 
 

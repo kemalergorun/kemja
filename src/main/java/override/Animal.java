@@ -39,7 +39,7 @@ public class Animal {
     //iki çeşit overload ve over ride
     //over load tek class override parent tan child e gider
     //over ride daha spesifik bastırma
-    //
+    //override anitasyonu yazmak zorunlu değil
 
 
 

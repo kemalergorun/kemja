@@ -6,7 +6,9 @@ public class AnimalRunner {
         d.bark();
         d.feedWMilk();
         d.eat();
+
         d.drink();
+
         //bird
         Bird b=new Bird();
         b.tweet();
